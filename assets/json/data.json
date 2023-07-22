@@ -1,0 +1,78 @@
+{
+    "nombre": "Albert Romero Martinez",
+    "titulo": "Full Stack Developer",
+    "email": "albertromart1@gmail.com",
+    "fechaNacimiento": "2001-10-05",
+    "sobremi": "Soy una persona tranquila y trabajadora, me gusta aprender cosas nuevas para crecer de forma profesional como presonal, me gusta mucho la tecnologia y los videojuegos y grácias a eso busco especializarme dentro de este grandisimo sector. Siempre intento buscar y arreglar el error por mis métodos. Me adapto rápidamente al trabajo.",
+    "objetivo": "Mis objetivos son poder trabajar de programación porque me gusta mucho, llegar a ser Senior Developer, con esto poder seguir estudiando más sobre el lenguaje de la programación. Conocer más gente y socializar, trabajar duro",
+    "estudios":[
+        {
+            "curso": "Bootcamp: IPIA Python",
+            "instituto": "Fundació Esplai",
+            "ubicacion": "Prat de Llobregat",
+            "f_start": "2023-05-02",
+            "f_end": "2023-10-28"
+        },
+
+        {
+            "curso": "Grado Medio: Microinformática y redes",
+            "instituto": "IES La Guineueta",
+            "ubicacion": "Barcelona",
+            "f_start": "2017-10-12",
+            "f_end": "2022-06-24"
+        }
+    ],
+    
+    "softskills": [
+        {     
+            "prim": "Trabajador",
+            "segu": "Tolerancia a la monotonía",
+            "terc": "Capacidad de análisis y resolución de problemas",
+            "cuar": "Capacidad de concentración",
+            "quin": "Personalidad empática",
+            "sext": "Capacidad de planificación, organización y gestión"
+        }
+    ],
+
+    "hardskills": [
+        {    
+            "frontend": "HTML, CSS, Bootstrap, JavaScript, ReactJS",
+            "backend": "Java, Python, Node.js",
+            "bbdd": "MySQL",
+            "so": "Windows, Linux",
+            "informatica": "CMD, Virtual Box, Mantenimiento de equipos microinformáticos, Copias de seguridad."
+        }
+    ],
+
+    "idiomas": [
+        {
+            "idioma": "Catalán",
+            "hablado": "C1",
+            "escrito": "C1",
+            "entendido": "C1",
+            "nativo": "Si"
+        },
+        {
+            "idioma": "Castellano",
+            "hablado": "C1",
+            "escrito": "C1",
+            "entendido": "C1",
+            "nativo": "Si"
+        },
+        {
+            "idioma": "Inglés",
+            "hablado": "B2",
+            "escrito": "B1",
+            "entendido": "B2",
+            "nativo": "No"
+        },
+        {
+            "idioma": "Gallego",
+            "hablado": "A1",
+            "escrito": "A1",
+            "entendido": "A1",
+            "nativo": "No"
+        }
+    ]
+}
+

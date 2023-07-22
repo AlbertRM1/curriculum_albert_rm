@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    text-decoration: solid;
+    font-family: 'Ubuntu', sans-serif;;
+
+}
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    background-color: #808080;
+}
+
+/* CABECERA */
+header{
+    background: #666;
+    width: 100%;
+    height: 50px;
+    font-size: xx-large;
+    color: white;
+}
+
+/* SELECTOR DE CABECERA */
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #555;
+    position: fixed;
+}
+
+/* COLOCACIÑON DEL SELECTOR DE CABECERA */
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+/* ESTILO AL PASAR EL RATÓN POR EL SELECTOR DE CABECERA */
+a:hover{
+    background-color: #CCC;
+    color: #555;
+}
+
+/* CADA SECCIÓN DE INFO*/
+section{
+    width: 100;
+    height: 100vh;
+    background-color: #CCC;
+    color: #555;
+    margin: 20px;
+    padding: 100px;
+}
+
+/* PIE DE PÁGINA */
+footer{
+    background: #555;
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ESTILO DEL FORMULARIO */
+#contacto {
+    width: right;
+    height: 50px;
+    border-radius: 40%;
+    display: flex;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+}
+
+/* LINKS DE CONTACTO */
+#linkedin {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/linkedin.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+#github {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/github.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+#mail {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/gmail.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+#telf {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/telf.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+/* HUEVO DE PASCUA */
+
+.huevo{
+    border: 2px solid grey;
+}
+
+/* ESTA PARTE ES LA DEL MODO OSCURO */
+body.darkmode {
+    background-color: rgb(4, 24, 27);
+    color: white;
+}
+
+.darkmode section {
+    background-color: rgb(19, 36, 39);
+    color: rgb(150, 144, 144);
+}
+
+.darkmode header {
+    background-color: rgb(19, 36, 39);
+    color: rgb(150, 144, 144);
+}
+
+.darkmode nav {
+    background-color: rgb(15, 27, 29);
+    color: rgb(150, 144, 144);
+}
+
+.darkmode a {
+    color: rgb(150, 144, 144);
+}
+
+.darkmode a:hover {
+    background-color: rgb(150, 144, 144);
+    color: rgb(209, 207, 207);
+}
+
+.darkmode input {
+    background-color: #555;
+    color: rgb(209, 207, 207);
+}
+
+.darkmode textarea {
+    background-color: #555;
+    color: rgb(233, 233, 233);
+}
+
+.darkmode button {
+    background-color: #333333;
+    color: rgb(209, 207, 207)
+}
+
+.darkmode footer {
+    background-color: rgb(15, 27, 29);
+    color: rgb(150, 144, 144);
+}
+
+.darkmode #linkedin {
+    background-image: url('../img/darklinkedin.jpg');
+}
+
+.darkmode #github {
+    background-image: url('../img/darkgithub.jpg');
+}
+
+.darkmode #mail {
+    background-image: url('../img/darkgmail.jpg');
+}
+
+.darkmode #telf {
+    background-image: url('../img/darktelf.jpg');
+}
+
+#intro, #obj {
+    font-size: larger;
+    text-align: justify;
+}
+
